@@ -1,3 +1,23 @@
 <resources>
-    <string name="app_name">dtsma_coding_krewe</string>
+    <string name="app_name">LEA</string>
+    <string name="action_settings">Settings</string>
+    <string name="toolbar_title">LEA</string>
+    <string name="redcross_text">Redcross</string>
+    <string name="firestation_text">Firestation</string>
+    <string name="hospital_text">Hospital</string>
+    <string name="redcross_image">redcross image</string>
+    <string name="firestation_image">firestation image</string>
+    <string name="hospital_image">hospital image</string>
+    <string name="action_toggle_legend">Toggle Legend</string>
+    <string name="toggle_traffic">Toggle Traffic</string>
+    <string name="satellite">Satellite</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="terrain">Terrain</string>
+    <string name="red_cross_locations">Red Cross Locations</string>
+    <string name="fire_stations">Fire Stations</string>
+    <string name="hospitals">Hospitals</string>
+    <string name="police">Police</string>
+    <string name="lea">LEA</string>
+    <string name="normal">Normal</string>
+    <string name="evacuation_routes">Evacuation Routes</string>
 </resources>

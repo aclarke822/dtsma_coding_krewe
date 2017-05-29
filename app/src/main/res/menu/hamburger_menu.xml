@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MapsActivity">
+
+    <group android:id="@+id/group1" android:checkableBehavior="none">
+    </group>
+
+    <group android:id="@+id/group2" android:checkableBehavior="none">
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/evacuation_routes_menu"
+            android:icon="@drawable/ic_evacuation_routes"
+            android:title="@string/evacuation_routes"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/red_cross_menu"
+            android:icon="@drawable/red_cross_transparent"
+            android:title="@string/red_cross_locations"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/firestations_menu"
+            android:icon="@drawable/fireman_transparent"
+            android:title="@string/fire_stations"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/hospital_menu"
+            android:icon="@drawable/hospital_transparent"
+            android:title="@string/hospitals"
+            android:checked="true"/>
+
+        <item
+            android:id="@+id/police_menu"
+            android:icon="@drawable/police_transparent"
+            android:title="@string/police"
+            android:checked="true"/>
+    </group>
+
+    <group android:id="@+id/group4" android:checkableBehavior="none">
+    </group>
+
+    <group android:id="@+id/group5">
+        <item
+            android:id="@+id/toggle_traffic"
+            android:icon="@drawable/ic_traffic"
+            android:title="@string/toggle_traffic"
+            android:checked="true"/>
+    </group>
+
+    <group android:id="@+id/group6" android:checkableBehavior="single" >
+        <item
+            android:id="@+id/satellite"
+            android:icon="@drawable/ic_satellite"
+            android:title="@string/satellite"/>
+
+        <item
+            android:id="@+id/hybrid"
+            android:icon="@drawable/ic_hybrid"
+            android:title="@string/hybrid"/>
+
+        <item
+            android:id="@+id/terrain"
+            android:icon="@drawable/ic_terrain"
+            android:title="@string/terrain"/>
+
+        <item
+            android:id="@+id/normal"
+            android:icon="@drawable/ic_normal"
+            android:title="@string/normal"
+            android:checked="true"/>
+    </group>
+
+</menu>
